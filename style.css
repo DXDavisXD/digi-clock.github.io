@@ -1,0 +1,25 @@
+body{
+    background-image: url(hrvoje_photography-4TVbbaNAw9Q-unsplash.jpg);
+    border-image-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    height: 98vh;
+    align-items: center;
+}
+#clock{
+    font-family:'Agency FB';
+    font-size: 10ch;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    background-color: hsla(209, 100%, 75%, 0.205);
+    font-weight: bold;
+    color: white;
+    backdrop-filter: blur(2px);
+}
